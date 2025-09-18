@@ -5,6 +5,7 @@ class Emo < Formula
   sha256 "4ec677dec0ec91213df185dd629f169b05471f779e475c40bbd06f3e639060cd"
   license "MIT"
 
+  depends_on "cmake" => :build
   depends_on "rust" => :build
 
   def install
