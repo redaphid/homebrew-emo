@@ -1,8 +1,8 @@
 class Emo < Formula
   desc "CLI tool for finding and managing emojis with AI-powered selection"
   homepage "https://github.com/redaphid/emo"
-  url "https://api.github.com/repos/redaphid/emo/tarball/v2.3.0"
-  sha256 "4ec677dec0ec91213df185dd629f169b05471f779e475c40bbd06f3e639060cd"
+  url "https://api.github.com/repos/redaphid/emo/tarball/v2.4.0"
+  sha256 "b03807467d6443510e813b60b3c14e5ede7cf550baa3d45371b3824c645f3cd1"
   license "MIT"
 
   depends_on "cmake" => :build
